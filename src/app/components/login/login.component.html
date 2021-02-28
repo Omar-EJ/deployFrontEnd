@@ -1,0 +1,39 @@
+<div class="border container">
+ 
+        
+        <form  class="form-signin" [formGroup]="loginForm" (ngSubmit)="loginUser()" novalidate>
+            
+          <div class="row">
+            <div class="logo col"> <img src="assets\Logo_PI.png" alt="logo SEE" width=80% height=80% >
+            </div>
+            </div>
+            <span class="text-danger">{{errorMessage}}</span>
+            <br>
+            <div class="mail row">
+              <input type="email" id="inputEmail" class="form-control" placeholder="Login" formControlName="login">
+            </div>
+            <br>
+            <div class="pass row">
+              <input type="password" id="inputPassword" class="form-control" placeholder="Password" formControlName="password">
+            </div>
+            <br>
+            <div class="row">
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            </div>
+            <br>
+            <div class="register row">
+              <a routerLink="/subscribe"> 
+                
+              
+            </a>
+            </div>
+
+            
+          
+          
+</form>      
+        
+    
+    
+  
+</div>

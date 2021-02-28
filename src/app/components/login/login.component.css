@@ -1,0 +1,67 @@
+.container{
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.logo{
+    height: 50%;
+    width: 50%;
+    align-self: center;
+
+}
+
+
+.signupT{
+    color:black;
+}
+
+span{
+    color: rgb(121, 212, 240);
+}
+
+.mail{
+    height: 100%;
+    width: 100%;
+    margin: 3%;
+    background-color:#1D47A8;
+    
+}
+
+.or{
+   text-align: center;
+}
+
+hr{
+    margin-right: auto;
+    margin-left: auto;
+}
+.hrBar{
+    margin: 0;
+}
+
+.signup{
+    margin: 2%;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(180, 175, 175);
+    margin-bottom: 5%;
+
+}
+
+.row{
+    margin: auto;
+    padding: auto;
+}
+
+.btn:hover{
+    transition:2s;
+    transform:scale(1.05);
+}
+
+.T{
+    font-size: 1rem;
+}
+.register{
+   align-self: center;
+}
